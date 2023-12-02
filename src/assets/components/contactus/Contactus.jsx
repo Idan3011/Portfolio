@@ -14,19 +14,33 @@ const Contactus = ({ focus3 }) => {
   });
 
   function handleInputVal(e) {
-    e.preventDefault();
     setInputVal({ ...inputVal, [e.target.name]: e.target.value });
+    
   }
 
+
+  
+  
+  
+ 
+  console.log(inputVal);
+  
   const submitForm = useRef(inputVal);
+  
+  console.log(submitForm);
+  
 
   function handleSubmitForm(e) {
     e.preventDefault();
-    localStorage.setItem("Name", `${submitForm.current.name}`);
-    localStorage.setItem("Email", `${submitForm.current.email}`);
-    localStorage.setItem("Text", `${submitForm.current.text}`);
-    localStorage.setItem("Words", `${submitForm.current.words}`);
+    
+    localStorage.setItem("Name", `${submitForm.current.name.value}`);
+    localStorage.setItem("Email", `${submitForm.current.email.value}`);
+    localStorage.setItem("Text", `${submitForm.current.text.value}`);
+    localStorage.setItem("Words", `${submitForm.current.words.value}`);
+    console.log(localStorage);
+    
   }
+  
 
   return (
     <div id="contactus" onMouseEnter={focus3} onMouseLeave={focus3}>
@@ -35,10 +49,9 @@ const Contactus = ({ focus3 }) => {
         <h4>GET IN TOUCH</h4>
       </div>
       <div className="contact-us">
-        <form method="post" id="form-contact" onSubmit={handleSubmitForm}>
+        <form method="post" id="form-contact" onSubmit={handleSubmitForm} ref={submitForm}>
           <h3>Send A Message</h3>
           <input
-            ref={submitForm}
             type="text"
             name="name"
             className="contactus"
