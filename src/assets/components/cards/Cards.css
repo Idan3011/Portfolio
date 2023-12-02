@@ -1,0 +1,129 @@
+#cards {
+  background: #344144;
+  min-height: 120vh;
+  width: 100%;
+  margin: 0;
+  padding-bottom: 3rem;
+}
+
+.card-header {
+  width: 100%;
+  height: 12rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.card-header h4 {
+  color: rgba(230, 222, 222, 0.7);
+  border-bottom-color: #f7f7f7f7;
+}
+
+.card-container {
+  display: grid;
+  width: 100%;
+  min-height: 50vh;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(1, 1fr);
+  column-gap: 1.8rem;
+  padding: 0rem 1.3rem;
+}
+
+.card-style {
+  width: 23rem;
+  height: 18rem;
+  border-radius: 0.5rem;
+  background: #f7f7f7f7;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+.card1 {
+  background-image: url("../../PICS/card1-img.png");
+  background-repeat: no-repeat center center/cover;
+  background-size: 100% 101%;
+  width: 23rem;
+  height: 18rem;
+  box-shadow: -2px 4px 32px -5px rgba(56, 39, 39, 0.83);
+  -webkit-box-shadow: -2px 4px 32px -5px rgba(56, 39, 39, 0.83);
+  -moz-box-shadow: -2px 4px 32px -5px rgba(56, 39, 39, 0.83);
+}
+
+.card2 {
+  background-image: url("../../PICS/card2-img.png");
+  background-repeat: no-repeat center center/cover;
+  background-size: 100% 100%;
+  width: 23rem;
+  height: 18rem;
+  box-shadow: -2px 4px 32px -5px rgba(56, 39, 39, 0.83);
+  -webkit-box-shadow: -2px 4px 32px -5px rgba(56, 39, 39, 0.83);
+  -moz-box-shadow: -2px 4px 32px -5px rgba(56, 39, 39, 0.83);
+}
+
+.card3 {
+  background-image: url("../../PICS/card3-img.png");
+  background-repeat: no-repeat center center/cover;
+  background-size: 100% 100%;
+  width: 23rem;
+  height: 18rem;
+  box-shadow: -2px 4px 32px -5px rgba(56, 39, 39, 0.83);
+  -webkit-box-shadow: -2px 4px 32px -5px rgba(56, 39, 39, 0.83);
+  -moz-box-shadow: -2px 4px 32px -5px rgba(56, 39, 39, 0.83);
+}
+
+.popup {
+  width: 17rem;
+  height: 14rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  top: 0;
+  background: #aebdc0f5;
+  margin-left: 3rem;
+  transform: translateY(-14rem);
+  border-radius: 0.5rem;
+  font-family: "Lato", sans-serif;
+  overflow: hidden;
+  justify-content: space-between;
+  padding: 0.7rem;
+}
+
+.card1:hover .popup,
+.card2:hover .popup,
+.card3:hover .popup {
+  transform: translateY(2rem);
+  transition: all 0.6s ease-in-out;
+}
+
+
+
+.popup a {
+  color: black;
+  font-size: 0.78rem;
+  margin-top: 0rem;
+  text-align: center;
+  font-family: "Lato";
+}
+
+.popup h5 {
+  text-align: center;
+  font-size: 1.4rem;
+  letter-spacing: 0.1rem;
+  text-decoration: underline;
+  margin-top: 0.4rem;
+  font-family: "Lato";
+}
+
+.popup p {
+  height: 100%;
+    width: 83%;
+}
+
+.live-demo{
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
