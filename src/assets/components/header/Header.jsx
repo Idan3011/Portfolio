@@ -64,7 +64,7 @@ const Header = ({ focus }) => {
                   "WEB DEVELOPER.",
                   250,
                 ]}
-                speed={150}
+                speed={250}
                 repeat={Infinity}
               />
             </h2>

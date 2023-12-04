@@ -259,3 +259,211 @@ div#footer p {
 
 
 }
+
+@media (max-width: 412px) {
+  ul.navbar {
+    display: flex;
+    margin-left: 9rem;
+    left: 62%;
+    list-style: none;
+    top: 3%;
+    width: 30rem;
+    font-size: 1.4rem;
+    width: 82%;
+    margin-left: 46rem;
+  }
+
+  h4 {
+    margin-left: 11rem;
+    margin-top: 3rem;
+    font-size: larger;
+    font-size: 1.4rem;
+    color: #f7f7f7f7;
+}
+
+div.content-container h2 {
+  margin-left: 3rem;
+    margin-top: 1rem;
+    font-size: larger;
+    font-size: 1rem;
+    color: #f7f7f7f7;
+    width: 100%;
+}
+
+div.content-container h2 span {
+  font-family: 'DM Serif Display', serif;
+  color: #00008f;
+  font-style: italic;
+  font-size: 1.3rem;
+  letter-spacing: 0.2rem;
+}
+  div.content-container p {
+   
+      text-align: left;
+      line-height: 1.7rem;
+      letter-spacing: 0.01rem;
+      margin-left: 3.1rem;
+      color: #f7f7f7f7;
+      font-family: 'Quicksand', sans-serif;
+      font-size: 1rem;
+      width: 52%;
+  
+  }
+
+  div.img1 {
+    background-image: url(/src/assets/PICS/profile-pic-fotor-bg-remover-20231123125125-modified.png);
+    width: 10rem;
+    height: 10rem;
+    border: 0.3rem solid #00008f;
+    border-radius: 50%;
+    background-repeat: no-repeat center center/cover;
+    background-size: 100% 100%;
+    margin-left: 15rem;
+    margin-top: -17rem;
+}
+
+ul.btns {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  width: 35rem;
+  height: 2rem;
+  list-style: none;
+  margin-top: 10rem;
+  margin-left: -3rem;
+  align-items: center;
+}
+
+#home {
+  background: #344144;
+  margin: 0;
+  padding: 1px;
+  color: #f7f7f7f7;
+  font-family: 'Lato', sans-serif;
+  width: 100%;
+  min-height: 70vh;
+}
+
+#about div.header h4 {
+  width: 100%;
+  color: rgba(0,0,0,.4);
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+}
+
+.about-container h1 {
+  color: #00008f;
+  margin-left: 0rem;
+  font-family: 'Lato';
+  font-size: 1.6rem;
+  margin-top: 18rem;
+  padding-top: 1rem;
+}
+
+#about div.header h4 {
+  width: 100%;
+  color: rgba(0,0,0,.4);
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  border: none;
+  margin-left: 15rem;
+}
+
+button.form-btn {
+  width: 8rem;
+  height: 3rem;
+  border: none;
+  background: #00008f;
+  border-radius: 0.5rem;
+  margin-left: 10rem;
+  color: #f7f7f7f7;
+  font-family: 'Lato';
+  font-size: 1.2rem;
+  margin-top: 19rem;
+  margin-left: 8rem;
+}
+
+.card-header h4 {
+  color: rgba(230, 222, 222, 0.7);
+  border-bottom-color: #f7f7f7f7;
+  margin-right: 0rem;
+  width: 100%;
+}
+
+.card-container {
+  display: grid;
+  width: 100%;
+  min-height: 89vh;
+  grid-template-rows: repeat(1, 1fr);
+  padding: 0rem 3.5rem;
+  row-gap: 2rem;
+  grid-template-columns: repeat(1, 1fr);
+  margin-left: -2rem;
+}
+
+.header h4 {
+  color: rgba(0,0,0,.4);
+  font-family: Roboto, sans-serif;
+  font-weight: lighter;
+  letter-spacing: 0.1rem;
+  font-size: 1.2rem;
+  padding-bottom: 2.1rem;
+  width: 100%;
+  margin-left: 14rem;
+}
+
+form#form-contact {
+  height: 31rem;
+  border-radius: 0.5rem;
+  background: #f7f7f7f7;
+  padding: 0 0.4rem;
+  width: 12rem;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+button#submit {
+  width: 6rem;
+  height: 2rem;
+  margin-top: 0.5rem;
+  border-radius: 0.5rem;
+  background: black;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  font-family: 'Quicksand';
+  color: #f7f7f7f7;
+  cursor: pointer;
+  font-size: 0.7rem;
+  overflow: hidden;
+  font-weight: 600;
+  letter-spacing: 0.05rem;
+}
+div#contactus {
+  width: 100%;
+  min-height: 71vh;
+  background: #dfdfde;
+}
+
+div#footer {
+  background-color: rgb(11, 6, 6);
+  min-height: 22vh;
+  width: 100%;
+}
+#footer ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 42rem;
+  margin-left: -8.5rem;
+  list-style: none;
+  justify-content: center;
+  height: 8rem;
+  line-height: 0.1rem;
+}
+}
