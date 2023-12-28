@@ -17,11 +17,11 @@ const classRender = [
   },
   {
     class: "card3",
-    title: "Minecraft Game 2D",
+    title: "Crypto Currency Exchange",
     discription:
-      "by using the tool of vanilla-JAVASCRIPT, HTML & CSS, Build a 2D world of MineCraf. use tools to mine objects.",
-    link: "https://github.com/Idan3011/MineCraft",
-    link1: 'https://fantastic-starship-34016e.netlify.app'
+      "CoinVerse is a demo web application that simulates a cryptocurrency exchange market using REACT, firebase & MUI",
+    link: "https://github.com/Idan3011/Crypto-Exchange-Market",
+    link1: 'https://tranquil-stroopwafel-f19c1a.netlify.app/'
   },
 ];
 

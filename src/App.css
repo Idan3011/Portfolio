@@ -6,7 +6,7 @@ html {
   scroll-behavior: smooth;
 }
 
-/* @media (max-width: 500px){
+@media (max-width: 500px){
   nav.header{
     position: sticky;
     background: #344144;
@@ -258,7 +258,7 @@ div#footer p {
 }
 
 
-} */
+}
 
 @media (max-width: 412px) {
   div.logo {

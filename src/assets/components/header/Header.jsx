@@ -1,8 +1,8 @@
 import {useState } from "react";
 import { TypeAnimation } from "react-type-animation";
 import "./Header.css";
-
-const Header = ({ focus }) => {
+import { types } from "../../data/type";
+const Header = ({ focus,setIsOver ,setMouseOnPage}) => {
   const [isOn, setIsOn] = useState(false);
 
   function handleRef() {
@@ -25,45 +25,14 @@ const Header = ({ focus }) => {
   });
   return (
     <>
-      <div id="home" onMouseEnter={focus} onMouseLeave={focus}>
+      <div id="home"  onMouseEnter={()=>setMouseOnPage(true,setIsOver)} onMouseLeave={()=>setMouseOnPage(false,setIsOver)}>
         <div className="main-page">
           <div className="content-container">
             <h4>Hello, I`m</h4>
             <h2>
               IDAN ROTENBERG{" "}
               <TypeAnimation
-                sequence={[
-                  "",
-                  250,
-                  "W",
-                  250,
-                  "WE",
-                  250,
-                  "WE",
-                  250,
-                  "WEB",
-                  250,
-                  "WEB D",
-                  250,
-                  "WEB DE",
-                  250,
-                  "WEB DEV",
-                  250,
-                  "WEB DEVE",
-                  250,
-                  "WEB DEVEL",
-                  250,
-                  "WEB DEVELO",
-                  250,
-                  "WEB DEVELOP",
-                  250,
-                  "WEB DEVELOPE",
-                  250,
-                  "WEB DEVELOPER",
-                  250,
-                  "WEB DEVELOPER.",
-                  250,
-                ]}
+                sequence={types}
                 speed={250}
                 repeat={Infinity}
               />

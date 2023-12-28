@@ -1,12 +1,9 @@
 import React from "react";
 
-const Navbar = ({ isOver, isOver1, isOver2, isOver3}) => {
-  
-
-
+const Navbar = ({ isOver, isOver1, isOver2, isOver3 }) => {
   return (
     <>
-      <nav className={'header'} >
+      <nav className={"header"}>
         <div className="logo">
           <a href="#">
             <h2>ROTENBERG</h2>

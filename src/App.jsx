@@ -28,6 +28,9 @@ function App() {
   function handleIsOn3() {
     setIsOver3((isOver3) => !isOver3);
   }
+  function setMouseOnPage(isEnter,setFunction){
+    setFunction(isEnter)
+  }
 
   return (
     <>
@@ -37,8 +40,8 @@ function App() {
         isOver2={isOver2}
         isOver3={isOver3}
       />
-      <Header focus={handleIsOn} isOver={isOver} />
-      <About focus1={handleIsOn1} isOver1={isOver1} />
+      <Header focus={handleIsOn} isOver={isOver} setMouseOnPage={setMouseOnPage}  setIsOver={setIsOver}/>
+      <About focus1={handleIsOn1} isOver1={isOver1}  />
       <Cards focus2={handleIsOn2} isOver2={isOver2} />
       <Contactus focus3={handleIsOn3} isOver3={isOver3} />
       <Footer />
