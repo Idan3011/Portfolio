@@ -17,7 +17,7 @@ const classRender = [
   },
   {
     class: "card3",
-    title: "Crypto Currency Exchange",
+    title: "CoinVerse",
     discription:
       "CoinVerse is a demo web application that simulates a cryptocurrency exchange market using REACT, firebase & MUI",
     link: "https://github.com/Idan3011/Crypto-Exchange-Market",

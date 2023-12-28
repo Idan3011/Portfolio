@@ -96,7 +96,22 @@
   transition: all 0.6s ease-in-out;
 }
 
+.card1 p {
+  padding: 0.7rem;
+  margin-left: 1.3rem;
+  margin-top: -0.4rem;
+}
+.card2 p {
+  padding: 0.4rem;
+  margin-left: 35px;
+  margin-top: 0.1rem;
+}
 
+.card3 p {
+  font-size: 1rem;
+  padding: 0.4rem;
+  margin-left: 29px;
+}
 
 .popup a {
   color: black;
@@ -117,10 +132,10 @@
 
 .popup p {
   height: 100%;
-    width: 83%;
+  width: 83%;
 }
 
-.live-demo{
+.live-demo {
   display: flex;
   width: 100%;
   flex-direction: row;
